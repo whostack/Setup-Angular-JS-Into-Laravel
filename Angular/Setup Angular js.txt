@@ -1,0 +1,49 @@
+1) Bower Install
+
+	-> npm install bower -g
+	-> bower init
+
+2) gulpfile.js
+	/*============================ Optional =============================*/
+		-> npm install gulp-cli -g
+		-> npm install gulp -D
+		-> npx -p touch nodetouch gulpfile.js
+		-> gulp --help
+		-> npm install gulp (optional)
+	/*============================ Optional =============================*/
+	
+	/*============================ Required =============================*/
+		-> npm install --global gulp
+		-> npm install
+		-> npm install laravel-elixir (nor required)
+		-> npm install laravel-elixir --save-dev
+		-> npm audit fix
+		
+		Note : When error face to gulp verison issue
+			-> npm install --save-dev gulp@3.9.1
+
+	/*============================ Required =============================*/
+	
+3) Angular Setup
+	
+	Note : When Angular setup in laravel install in public directory.
+		
+	3.1) Angular Install
+		->	bower install angular
+		
+	3.2) Route Install
+		->	bower install angular-route --save
+	
+	3.3) Bootsrap Install (if required)
+		-> bower install bootstrap --save
+	
+	3.4) Cookies Install
+		-> bower install angular-cookies --save
+		
+	3.5) Angular CLI JSON
+		-> npm install --save-dev @angular/cli/@latest
+		-> npm install -g @angular-cli
+		-> npm install -g angular-cli
+		
+		
+Note : Laravel project when intgerate angular js you use the public/ path everytime
