@@ -5,13 +5,25 @@ myApp.config(['$routeProvider','$locationProvider',function($routeProvider,$loca
 
 		$routeProvider.when('/',{
 			title: 'Home',
-			templateUrl:'/theme/home/home.html',
+			templateUrl:'/theme/home.html',
 			controller : 'userController',
 		});
 
-		$routeProvider.when('/sahre',{
-			title: 'Home',
-			templateUrl:'/theme/home/sahre.html',
+		$routeProvider.when('/gallery',{
+			title: 'Gallery',
+			templateUrl:'/theme/gallery.html',
+			controller : 'userController',
+		});
+
+		$routeProvider.when('/aboutus',{
+			title: 'About US',
+			templateUrl:'/theme/about.html',
+			controller : 'userController',
+		});
+
+		$routeProvider.when('/contactus',{
+			title: 'Contact US',
+			templateUrl:'/theme/contactus.html',
 			controller : 'userController',
 		});
 	}
